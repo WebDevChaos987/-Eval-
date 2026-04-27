@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Hello, World!</title>
+</head>
+<body>
+  <h1>Alamo Sites</h1>
+  
+  <p>
+    Evalulate any Input injection, By WebDevChaos987. Contact information, at the bottom, for your information. For more Cyber-Security Education, you can visit <a href="http://demo.testfire.net" target="_blank">Testfire.net</a>, by WatchFire<br>
+    (<b>Note: </b> this site may be flagged by your browser). This website is for educational purposes only, and does not encourage <i>Black Hat Hacking</i>.
+  </p>
+  
+  <p>
+    <h1 style="font-size: 25px;">Login</h1>
+    
+    <input id="eval" placeholder="Username...">
+    <br>
+    <br>
+    <input id="eval" placeholder="Password...">
+    
+    <button onclick="eval()">Login</button>
+  </p>
+  
+  <script>
+  let eval = document.getElementById('eval').value;
+  if (eval === "67") {
+    alert("67 IS DEAD!!!");
+  }
+  else {
+    eval()
+  }
+  </script>
+</body>
+</html>
+
+<!--> I am trying to make a cyber-security website where it evalulates code (and makes sure no one says '67')
